@@ -65,11 +65,12 @@ families_raw <- families_raw |>
 
 # ── 3. Parse medium prefix and series name ─────────────────────────────────────
 # BGG family tags follow the pattern "Medium: Series Name"
-# We want: Movies, Books, TV Shows, Comic Books, Comic Strips
+# We want: Movies, Books, TV Shows, Comic Books, Comic Strips, Authors
+# Authors (e.g. "Authors: J.R.R. Tolkien") are treated as Books in the legend
 pop_tagged <- families_raw |>
   filter(!is.na(family)) |>
   mutate(
-    medium = str_extract(family, "^(Movies|Books|TV Shows|Comic Books|Comic Strips)(?=:)"),
+    medium = str_extract(family, "^(Movies|Books|TV Shows|Comic Books|Comic Strips|Authors)(?=:)"),
     series = str_trim(str_remove(family, "^[^:]+:\\s*"))
   ) |>
   filter(!is.na(medium)) |>
@@ -101,6 +102,7 @@ pop_tagged <- bind_rows(pop_tagged, exceptions) |>
 counts <- pop_tagged |>
   mutate(medium_label = case_when(
     medium %in% c("Comic Books", "Comic Strips") ~ "Comic Books / Strips",
+    medium == "Authors" ~ "Books",
     TRUE ~ medium
   )) |>
   count(series, medium_label, name = "n_games") |>
@@ -108,7 +110,8 @@ counts <- pop_tagged |>
     n_games >= 2,
     # Drop generic / noisy tags that aren't real franchises
     !series %in% c("Horror Movies", "Mystery Novels", "DreamWorks Animation",
-                   "Pixar", "Hanna-Barbera", "Tark Mees Taskus")
+                   "Pixar", "Hanna-Barbera", "Tark Mees Taskus",
+                   "Beatrix Potter", "Charles Perrault", "The Brothers Grimm")
   ) |>
   arrange(desc(n_games)) |>
   mutate(series = fct_reorder(series, n_games))
