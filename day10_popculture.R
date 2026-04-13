@@ -165,4 +165,3 @@ ggplot(counts, aes(x = n_games, y = series, fill = medium_label)) +
   )
 
 ggsave("images/day10_popculture.png", width = 11, height = 9, dpi = 300)
-message("Saved images/day10_popculture.png")
