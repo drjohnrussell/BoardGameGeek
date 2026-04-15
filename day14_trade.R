@@ -141,4 +141,3 @@ ggraph(g, layout = "fr") +
   )
 
 ggsave("images/day14_trade.png", width = 12, height = 10, dpi = 300)
-message("Saved images/day14_trade.png")

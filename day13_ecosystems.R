@@ -112,4 +112,3 @@ ggplot(flow_df,
   )
 
 ggsave("images/day13_ecosystems.png", width = 11, height = 9, dpi = 300)
-message("Saved images/day13_ecosystems.png")
