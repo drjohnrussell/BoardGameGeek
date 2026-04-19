@@ -97,20 +97,19 @@ p <- ggplot(year_props, aes(x = yearpublished, y = prop, fill = category)) +
   ) +
   theme_minimal(base_family = "lato", base_size = 13) +
   theme(
-    plot.title       = element_text(face = "bold", size = 18, margin = margin(b = 4)),
-    plot.subtitle    = element_text(size = 12, colour = "#555555", margin = margin(b = 12)),
-    plot.caption     = element_text(size = 9, colour = "#888888", hjust = 1),
+    plot.title       = element_text(face = "bold", size = 50, margin = margin(b = 4)),
+    plot.subtitle    = element_text(size = 40, colour = "#555555", margin = margin(b = 12)),
+    plot.caption     = element_text(size = 25, colour = "#888888", hjust = 1),
     plot.background  = element_rect(fill = "white", colour = NA),
     panel.grid.major.x = element_blank(),
     panel.grid.minor   = element_blank(),
     panel.grid.major.y = element_line(colour = "#eeeeee"),
-    axis.text        = element_text(size = 11),
-    legend.position  = "right",
-    legend.text      = element_text(size = 10),
+    axis.text        = element_text(size = 40),
+    legend.position  = "bottom",
+    legend.text      = element_text(size = 40),
     legend.key.size  = unit(0.55, "cm"),
     plot.margin      = margin(16, 16, 12, 16)
   ) +
   guides(fill = guide_legend(reverse = TRUE))
 
 ggsave("images/day19_evolution.png", p, width = 13, height = 7, dpi = 300)
-cat("Saved images/day19_evolution.png\n")
