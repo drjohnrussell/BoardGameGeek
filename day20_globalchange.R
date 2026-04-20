@@ -106,7 +106,14 @@ mech_share <- mech |>
   )
 
 # ── 6. Label positions at 2024 ────────────────────────────────────────────────
-label_right <- mech_share |> filter(yearpublished == 2024)
+label_right <- mech_share |> filter(yearpublished == 2024) |> 
+  mutate(share=case_when(
+    mech_short == "Hand Management"              ~ 0.52,
+    mech_short == "Variable Player Powers"       ~ 0.34,
+    mech_short == "Set Collection"               ~ 0.31,
+    mech_short == "Deck Building"                 ~ 0.11,
+    TRUE                                     ~ share
+  ))
 
 # ── 7. Palette ────────────────────────────────────────────────────────────────
 pal <- c(
@@ -118,6 +125,7 @@ pal <- c(
   "Variable Player Powers"       = "#B07AA1",
   "Set Collection"               = "#76B7B2"
 )
+
 
 # ── 8. Plot ───────────────────────────────────────────────────────────────────
 p <- ggplot(mech_share, aes(x = yearpublished, y = share,
@@ -132,12 +140,12 @@ p <- ggplot(mech_share, aes(x = yearpublished, y = share,
   scale_color_manual(values = pal) +
   scale_x_continuous(
     breaks = seq(1990, 2024, by = 5),
-    limits = c(1990, 2036)
+    limits = c(1997, 2036)
   ) +
   scale_y_continuous(labels = scales::percent_format(accuracy = 1)) +
   labs(
     title    = "The shifting DNA of BGG's top-ranked board games",
-    subtitle = "Share of top-1000 games published each year that feature each mechanic (1990–2024).\nSmoothed loess curves; faint points show raw annual values.",
+    subtitle = "Share of top-1000 games published each year that feature each mechanic (1997–2024).\nSmoothed loess curves; faint points show raw annual values.",
     x        = NULL,
     y        = "Share of that year's top-1000 games",
     caption  = "Source: BoardGameGeek API  |  30 Day Chart Challenge – Day 20: Global Change"
@@ -155,4 +163,3 @@ p <- ggplot(mech_share, aes(x = yearpublished, y = share,
   )
 
 ggsave("images/day20_globalchange.png", p, width = 13, height = 8, dpi = 300)
-message("Saved \u2192 images/day20_globalchange.png")
