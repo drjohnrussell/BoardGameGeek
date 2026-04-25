@@ -137,4 +137,3 @@ p <- ggplot(space_games, aes(x = yearpublished, y = bayesaverage)) +
   )
 
 ggsave("images/day25_space.png", p, width = 13, height = 10, dpi = 300)
-message("Saved: images/day25_space.png")
