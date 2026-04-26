@@ -118,5 +118,3 @@ animate(
   res      = 130,
   renderer = gifski_renderer("images/day27_animate.gif")
 )
-
-message("Saved images/day27_animate.gif")

@@ -95,19 +95,19 @@ p <- ggplot() +
     fill = "#FEE08B", alpha = 0.25
   ) +
   annotate(
-    "text", x = 2021, y = 0.54, label = "COVID-19\npandemic",
-    family = "sourcesans", size = 3.2, colour = "#B07D00",
-    hjust = 0.5, lineheight = 0.9
+    "text", x = 2021, y = 0.56, label = "COVID-19\npandemic",
+    family = "sourcesans", size = 16, colour = "#B07D00",
+    hjust = 0.5, lineheight = 0.4
   ) +
   # Kickstarter era annotation
   annotate(
-    "segment", x = 2012, xend = 2012, y = 0, yend = 0.18,
+    "segment", x = 2012, xend = 2012, y = 0, yend = 0.6,
     colour = "#888888", linewidth = 0.5, linetype = "dashed"
   ) +
   annotate(
-    "text", x = 2012, y = 0.20, label = "Kickstarter era\nbegins",
-    family = "sourcesans", size = 3.0, colour = "#555555",
-    hjust = 0.5, lineheight = 0.9
+    "text", x = 2012, y = 0.55, label = "Kickstarter era\nbegins",
+    family = "sourcesans", size = 16, colour = "#555555",
+    hjust = 0.5, lineheight = 0.4
   ) +
   # Scale y
   scale_y_continuous(
@@ -133,21 +133,23 @@ p <- ggplot() +
     y        = "Share with solo mechanic",
     caption  = "Source: BoardGameGeek API  |  30 Day Chart Challenge – Day 26: Trend"
   ) +
-  theme_minimal(base_family = "sourcesans", base_size = 13) +
+  theme_minimal(base_family = "sourcesans", base_size = 20) +
   theme(
-    plot.title         = element_text(family = "baskerville", size = 18,
+    plot.title         = element_text(family = "baskerville", size = 45,
                                       face = "bold", margin = margin(b = 6)),
-    plot.subtitle      = element_text(size = 11, colour = "#444444",
-                                      lineheight = 1.3, margin = margin(b = 14)),
-    plot.caption       = element_text(size = 9, colour = "#888888",
+    plot.subtitle      = element_text(size = 30, colour = "#444444",
+                                      lineheight = 0.5, margin = margin(b = 14)),
+    plot.caption       = element_text(size = 15, colour = "#888888",
                                       margin = margin(t = 12)),
     plot.margin        = margin(18, 20, 12, 18),
     panel.grid.major.x = element_blank(),
     panel.grid.minor.x = element_blank(),
     panel.grid.major.y = element_line(colour = "#EEEEEE"),
-    axis.title         = element_text(size = 11, colour = "#444444"),
+    axis.text       = element_text(size = 20, colour = "#444444"),
+    axis.title         = element_text(size = 25, colour = "#444444"),
     legend.position    = "right",
-    legend.title       = element_text(size = 9, lineheight = 1.2),
+    legend.title       = element_text(size = 25, lineheight = .4),
+    legend.text        = element_text(size = 20),
     legend.key.size    = unit(0.8, "lines")
   )
 
