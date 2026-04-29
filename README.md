@@ -37,6 +37,8 @@ A series of data visualisations built in R as part of the [#30DayChartChallenge]
 | 25 | Space | Star-map scatter — space & sci-fi games, glow effect encoding rating certainty | `day25_space.R` |
 | 26 | Trend | Smoothed line — share of top-1,000 games with a Solo/Solitaire mechanic, 1985–2024 | `day26_trend.R` |
 | 27 | Animate | Bar chart race — most common mechanics in BGG's top 1,000 games, 1993–2024 | `day27_animate.R` |
+| 28 | Modeling | Bayesian shrinkage curves — fitting BGG's rating model (C ≈ 2,564 dummy votes at m ≈ 5.5), top 15 games overlaid | `day28_modeling.R` |
+| 29 | Monochrome | Heatmap — share of BGG voters rating each player count as 'Best', top 50 ranked games | `day29_monochrome.R` |
 
 ---
 
@@ -44,4 +46,4 @@ A series of data visualisations built in R as part of the [#30DayChartChallenge]
 
 - **`data/boardgames_ranks.csv`** — BGG rankings snapshot: one row per game with rank, ratings, sub-category ranks, and expansion flag
 - **BGG XML API v2** (`https://boardgamegeek.com/xmlapi2`) — game details, mechanics, designers, families, play logs, and more
-- Cached API pulls stored as `.rds` files: `mechanics_raw_1000.rds`, `physical_raw.rds`, `designers_raw.rds`, `families_raw.rds`, `plays_raw.rds`
+- Cached API pulls stored as `.rds` files: `mechanics_raw_1000.rds`, `physical_raw.rds`, `designers_raw.rds`, `families_raw.rds`, `plays_raw.rds`, `player_counts_raw.rds`
