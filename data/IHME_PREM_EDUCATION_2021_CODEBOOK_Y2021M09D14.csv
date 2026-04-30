@@ -1,0 +1,280 @@
+variable_name,question,question_type,answer_label,value
+country,Country name,IHME generated,,
+location_id,Country location code,IHME generated,,
+observation_id,Observation ID,IHME generated,,
+user_id,User ID,Built-in data,,
+submission_time,Date and time survey was submitted,Built-in data,,
+age,What is your age? ,Select one,Under 16,1
+age,What is your age? ,Select one,16 to 25 years old ,2
+age,What is your age? ,Select one,26 to 35 years old ,3
+age,What is your age? ,Select one,36 to 45 years old ,4
+age,What is your age? ,Select one,Over 45 years old ,5
+age,What is your age? ,Select one,Not Available,99
+gender,What is your gender? ,Select one,Male ,1
+gender,What is your gender? ,Select one,Female ,2
+gender,What is your gender? ,Select one,Non-Binary,3
+gender,What is your gender? ,Select one,Prefer not to answer,88
+gender,What is your gender? ,Select one,Not Available,99
+geography,Where do you live?,Select one,City center or metropolitan area,1
+geography,Where do you live?,Select one,Suburban/Peri-urban,2
+geography,Where do you live?,Select one,Rural,3
+geography,Where do you live?,Select one,Not Available,99
+financial_situation,What is your current financial situation?,Select one,"I can afford food and regular expenses, and buy new clothes once a year, but nothing else",1
+financial_situation,What is your current financial situation?,Select one,"I can afford food and regular expenses, but nothing else",2
+financial_situation,What is your current financial situation?,Select one,"I can afford food, regular expenses, and clothes, but nothing else",6
+financial_situation,What is your current financial situation?,Select one,"I can afford food, but nothing else",3
+financial_situation,What is your current financial situation?,Select one,"I can comfortably afford food, clothes, and furniture, and I have savings",4
+financial_situation,What is your current financial situation?,Select one,"I can comfortably afford food, clothes, and furniture, but I don't have savings",7
+financial_situation,What is your current financial situation?,Select one,I cannot afford enough food for my family,5
+financial_situation,What is your current financial situation?,Select one,Prefer not to answer,88
+financial_situation,What is your current financial situation?,Select one,Not Available,99
+education,What is the highest level of schooling you have completed?,Select one,No formal education,1
+education,What is the highest level of schooling you have completed?,Select one,Primary school,2
+education,What is the highest level of schooling you have completed?,Select one,Some primary education,7
+education,What is the highest level of schooling you have completed?,Select one,Primary school completed,8
+education,What is the highest level of schooling you have completed?,Select one,Secondary/high school,3
+education,What is the highest level of schooling you have completed?,Select one,Some secondary school / high school,9
+education,What is the highest level of schooling you have completed?,Select one,Secondary school/ high school completed,10
+education,What is the highest level of schooling you have completed?,Select one,Technical school,4
+education,What is the highest level of schooling you have completed?,Select one,"Some technical education (e.g., polytechnic school)",11
+education,What is the highest level of schooling you have completed?,Select one,Technical school diploma or degree completed,12
+education,What is the highest level of schooling you have completed?,Select one,College or university,5
+education,What is the highest level of schooling you have completed?,Select one,Some university or college,13
+education,What is the highest level of schooling you have completed?,Select one,university or college degree completed,14
+education,What is the highest level of schooling you have completed?,Select one,Post graduate,6
+education,What is the highest level of schooling you have completed?,Select one,Post-graduate education,15
+education,What is the highest level of schooling you have completed?,Select one,Prefer not to answer,88
+education,What is the highest level of schooling you have completed?,Select one,Not Available,99
+employment_status,What is your current employment status?,Select one,Employed full-time,1
+employment_status,What is your current employment status?,Select one,"I work full-time, either as an employee or self-employed",11
+employment_status,What is your current employment status?,Select one,Employed part-time,2
+employment_status,What is your current employment status?,Select one,"I work part-time, either as an employee or self-employed",12
+employment_status,What is your current employment status?,Select one,Self-employed,3
+employment_status,What is your current employment status?,Select one,Student and work part-time,4
+employment_status,What is your current employment status?,Select one,I am a student and I work part-time,14
+employment_status,What is your current employment status?,Select one,Student,5
+employment_status,What is your current employment status?,Select one,I am a student,15
+employment_status,What is your current employment status?,Select one,Retired,6
+employment_status,What is your current employment status?,Select one,I am retired,16
+employment_status,What is your current employment status?,Select one,Unemployed,7
+employment_status,What is your current employment status?,Select one,I am unemployed,17
+employment_status,What is your current employment status?,Select one,I am doing community or military service,20
+employment_status,What is your current employment status?,Select one,"I do housework, fulfilling domestic tasks, looking after children",21
+employment_status,What is your current employment status?,Select one,I am unable to work due to long-term illness or disability,22
+employment_status,What is your current employment status?,Select one,None of the above,0
+employment_status,What is your current employment status?,Select one,Not Available,99
+ethnicity,What is your ethnicity?,Text,N/A,
+religion,What is your religion?,Text,N/A,
+edu_ch4_gender,What gender are they? (SELECT_ONE) ,Select one,Female,1
+edu_ch4_gender,What gender are they? (SELECT_ONE) ,Select one,Male,0
+edu_ch4_gender,What gender are they? (SELECT_ONE) ,Select one,Non-binary,2
+edu_ch4_gender,What gender are they? (SELECT_ONE) ,Select one,Decline to respond,88
+edu_ch2_gender,What gender are they? (SELECT_ONE),Select one,Female,1
+edu_ch2_gender,What gender are they? (SELECT_ONE),Select one,Male,0
+edu_ch2_gender,What gender are they? (SELECT_ONE),Select one,Non-binary,2
+edu_ch2_gender,What gender are they? (SELECT_ONE),Select one,Decline to respond,88
+edu_ch3_gender,What gender are they? (SELECT_ONE) ,Select one,Female,1
+edu_ch3_gender,What gender are they? (SELECT_ONE) ,Select one,Male,0
+edu_ch3_gender,What gender are they? (SELECT_ONE) ,Select one,Non-binary,2
+edu_ch3_gender,What gender are they? (SELECT_ONE) ,Select one,Decline to respond,88
+edu_ch1_gender,What gender are they? (SELECT_ONE),Select one,Female,1
+edu_ch1_gender,What gender are they? (SELECT_ONE),Select one,Male,0
+edu_ch1_gender,What gender are they? (SELECT_ONE),Select one,Non-binary,2
+edu_ch1_gender,What gender are they? (SELECT_ONE),Select one,Decline to respond,88
+edu_ch4_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,School is closed due to COVID-19,1
+edu_ch4_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,School is closed due to break/vacation,2
+edu_ch4_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Already graduated,3
+edu_ch4_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,School is too far away,4
+edu_ch4_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Cannot afford to go to school,5
+edu_ch4_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,"School does not have clean, safe buildings and bathrooms",6
+edu_ch4_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Had to leave school to work,7
+edu_ch4_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Had to leave school to care for a family member,8
+edu_ch4_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Had to leave school for other reason,99
+edu_ch2_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,School is closed due to COVID-19,1
+edu_ch2_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,School is closed due to break/vacation,2
+edu_ch2_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Already graduated,3
+edu_ch2_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,School is too far away,4
+edu_ch2_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Cannot afford to go to school,5
+edu_ch2_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,"School does not have clean, safe buildings and bathrooms",6
+edu_ch2_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Had to leave school to work,7
+edu_ch2_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Had to leave school to care for a family member,8
+edu_ch2_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Had to leave school for other reason,99
+edu_ch3_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,School is closed due to COVID-19,1
+edu_ch3_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,School is closed due to break/vacation,2
+edu_ch3_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Already graduated,3
+edu_ch3_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,School is too far away,4
+edu_ch3_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Cannot afford to go to school,5
+edu_ch3_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,"School does not have clean, safe buildings and bathrooms",6
+edu_ch3_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Had to leave school to work,7
+edu_ch3_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Had to leave school to care for a family member,8
+edu_ch3_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Had to leave school for other reason,99
+edu_ch1_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,School is closed due to COVID-19,1
+edu_ch1_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,School is closed due to break/vacation,2
+edu_ch1_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Already graduated,3
+edu_ch1_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,School is too far away,4
+edu_ch1_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Cannot afford to go to school,5
+edu_ch1_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,"School does not have clean, safe buildings and bathrooms",6
+edu_ch1_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Had to leave school to work,7
+edu_ch1_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Had to leave school to care for a family member,8
+edu_ch1_no_school_why,Which of the following best describes why they are no longer in school? (SELECT_ONE),Select one,Had to leave school for other reason,99
+edu_ch4_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,Another family member,5
+edu_ch4_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,A private tutor or teacher,6
+edu_ch4_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,"Sister, stepsister, sister in law",3
+edu_ch4_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,"Brother, step brother, brother in law",4
+edu_ch4_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,"No, studies alone",0
+edu_ch4_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,Other,99
+edu_ch4_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,Mother or step mother,1
+edu_ch4_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,Father or step father,2
+edu_ch2_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,Another family member,5
+edu_ch2_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,A private tutor or teacher,6
+edu_ch2_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,"Sister, stepsister, sister in law",3
+edu_ch2_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,"Brother, step brother, brother in law",4
+edu_ch2_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,"No, studies alone",0
+edu_ch2_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,Other,99
+edu_ch2_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,Mother or step mother,1
+edu_ch2_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,Father or step father,2
+edu_ch3_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,Another family member,5
+edu_ch3_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,A private tutor or teacher,6
+edu_ch3_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,"Sister, stepsister, sister in law",3
+edu_ch3_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,"Brother, step brother, brother in law",4
+edu_ch3_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,"No, studies alone",0
+edu_ch3_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,Other,99
+edu_ch3_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,Mother or step mother,1
+edu_ch3_help,Does anyone help them with their online or remote schooling at home? (SELECT_MANY),Select multiple,Father or step father,2
+edu_ch1_help,Does anyone help them with their online or remote schooling at home?(SELECT_MANY),Select multiple,Another family member,5
+edu_ch1_help,Does anyone help them with their online or remote schooling at home?(SELECT_MANY),Select multiple,A private tutor or teacher,6
+edu_ch1_help,Does anyone help them with their online or remote schooling at home?(SELECT_MANY),Select multiple,"Sister, stepsister, sister in law",3
+edu_ch1_help,Does anyone help them with their online or remote schooling at home?(SELECT_MANY),Select multiple,"Brother, step brother, brother in law",4
+edu_ch1_help,Does anyone help them with their online or remote schooling at home?(SELECT_MANY),Select multiple,"No, studies alone",0
+edu_ch1_help,Does anyone help them with their online or remote schooling at home?(SELECT_MANY),Select multiple,Other,99
+edu_ch1_help,Does anyone help them with their online or remote schooling at home?(SELECT_MANY),Select multiple,Mother or step mother,1
+edu_ch1_help,Does anyone help them with their online or remote schooling at home?(SELECT_MANY),Select multiple,Father or step father,2
+edu_ch4_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Never (0 days per week),0
+edu_ch4_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Always (7 days per week),4
+edu_ch4_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Most of the time (5-6 days per week),3
+edu_ch4_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Rarely (1-2 days per week),1
+edu_ch4_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Usually (3-4 days per week),2
+edu_ch2_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Never (0 days per week),0
+edu_ch2_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Always (7 days per week),4
+edu_ch2_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Most of the time (5-6 days per week),3
+edu_ch2_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Rarely (1-2 days per week),1
+edu_ch2_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Usually (3-4 days per week),2
+edu_ch3_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Never (0 days per week),0
+edu_ch3_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Always (7 days per week),4
+edu_ch3_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Most of the time (5-6 days per week),3
+edu_ch3_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Rarely (1-2 days per week),1
+edu_ch3_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Usually (3-4 days per week),2
+edu_ch1_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Never (0 days per week),0
+edu_ch1_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Always (7 days per week),4
+edu_ch1_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Most of the time (5-6 days per week),3
+edu_ch1_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Rarely (1-2 days per week),1
+edu_ch1_internet_access,Which of the following best describes how often they have access to a working internet connection and a working device to be able to learn (when school is in session)? (SELECT_ONE),Select one,Usually (3-4 days per week),2
+edu_ch4_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,Preschool or kindergarten,1
+edu_ch4_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,Grades/years 1-5 (Primary or elementary school),2
+edu_ch4_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,Grades/years 6-8 (Higher elementary or Secondary school),3
+edu_ch4_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,Grades/years 9-12 (Secondary School),4
+edu_ch4_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,University (Post-Secondary),5
+edu_ch2_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,Preschool or kindergarten,1
+edu_ch2_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,Grades/years 1-5 (Primary or elementary school),2
+edu_ch2_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,Grades/years 6-8 (Higher elementary or Secondary school),3
+edu_ch2_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,Grades/years 9-12 (Secondary School),4
+edu_ch2_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,University (Post-Secondary),5
+edu_ch3_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,Preschool or kindergarten,1
+edu_ch3_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,Grades/years 1-5 (Primary or elementary school),2
+edu_ch3_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,Grades/years 6-8 (Higher elementary or Secondary school),3
+edu_ch3_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,Grades/years 9-12 (Secondary School),4
+edu_ch3_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,University (Post-Secondary),5
+edu_ch1_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,Preschool or kindergarten,1
+edu_ch1_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,Grades/years 1-5 (Primary or elementary school),2
+edu_ch1_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,Grades/years 6-8 (Higher elementary or Secondary school),3
+edu_ch1_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,Grades/years 9-12 (Secondary School),4
+edu_ch1_level,What level of education were they attending prior to the COVID-19 pandemic? (SELECT_ONE),Select one,University (Post-Secondary),5
+edu_ch4_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Online (Using smartphone),2
+edu_ch4_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Online (Using computer/tablet),1
+edu_ch4_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Paper materials sent home,3
+edu_ch4_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Classes on television,4
+edu_ch4_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Classes on radio,5
+edu_ch2_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Online (Using smartphone),2
+edu_ch2_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Online (Using computer/tablet),1
+edu_ch2_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Paper materials sent home,3
+edu_ch2_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Classes on television,4
+edu_ch2_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Classes on radio,5
+edu_ch3_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Online (Using smartphone),2
+edu_ch3_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Online (Using computer/tablet),1
+edu_ch3_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Paper materials sent home,3
+edu_ch3_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Classes on television,4
+edu_ch3_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Classes on radio,5
+edu_ch1_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Online (Using smartphone),2
+edu_ch1_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Online (Using computer/tablet),1
+edu_ch1_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Paper materials sent home,3
+edu_ch1_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Classes on television,4
+edu_ch1_remote_method,Which of the following best describes how they are learning online or remotely (when school is in session)? (SELECT_MANY),Select multiple,Classes on radio,5
+edu_ch4_school_reopen,Which of the following best describes what you anticipate will happen for them when schools re-open? (SELECT_ONE),Select one,"Person will not return to school, because they need to work",2
+edu_ch4_school_reopen,Which of the following best describes what you anticipate will happen for them when schools re-open? (SELECT_ONE),Select one,"Person will not return to school, because they need to care for a family member",3
+edu_ch4_school_reopen,Which of the following best describes what you anticipate will happen for them when schools re-open? (SELECT_ONE),Select one,"Person will not return to school, for some other reason",4
+edu_ch4_school_reopen,Which of the following best describes what you anticipate will happen for them when schools re-open? (SELECT_ONE),Select one,Person will return to school,1
+edu_ch2_school_reopen,Which of the following best describes what you anticipate will happen for them when schools re-open? (SELECT_ONE),Select one,"Person will not return to school, because they need to work",2
+edu_ch2_school_reopen,Which of the following best describes what you anticipate will happen for them when schools re-open? (SELECT_ONE),Select one,"Person will not return to school, because they need to care for a family member",3
+edu_ch2_school_reopen,Which of the following best describes what you anticipate will happen for them when schools re-open? (SELECT_ONE),Select one,"Person will not return to school, for some other reason",4
+edu_ch2_school_reopen,Which of the following best describes what you anticipate will happen for them when schools re-open? (SELECT_ONE),Select one,Person will return to school,1
+edu_ch3_school_reopen,Which of the following best describes what you anticipate will happen for them when schools re-open? (SELECT_ONE),Select one,"Person will not return to school, because they need to work",2
+edu_ch3_school_reopen,Which of the following best describes what you anticipate will happen for them when schools re-open? (SELECT_ONE),Select one,"Person will not return to school, because they need to care for a family member",3
+edu_ch3_school_reopen,Which of the following best describes what you anticipate will happen for them when schools re-open? (SELECT_ONE),Select one,"Person will not return to school, for some other reason",4
+edu_ch3_school_reopen,Which of the following best describes what you anticipate will happen for them when schools re-open? (SELECT_ONE),Select one,Person will return to school,1
+edu_ch1_school_reopen,Which of the following best describes what you anticipate will happen for them when schools re-open? (SELECT_ONE),Select one,"Person will not return to school, because they need to work",2
+edu_ch1_school_reopen,Which of the following best describes what you anticipate will happen for them when schools re-open? (SELECT_ONE),Select one,"Person will not return to school, because they need to care for a family member",3
+edu_ch1_school_reopen,Which of the following best describes what you anticipate will happen for them when schools re-open? (SELECT_ONE),Select one,"Person will not return to school, for some other reason",4
+edu_ch1_school_reopen,Which of the following best describes what you anticipate will happen for them when schools re-open? (SELECT_ONE),Select one,Person will return to school,1
+edu_ch4_situation,"Which of the following best describes their current schooling situation? (SELECT_ONE)
+",Select one,Not currently in school,0
+edu_ch4_situation,"Which of the following best describes their current schooling situation? (SELECT_ONE)
+",Select one,In person class,1
+edu_ch4_situation,"Which of the following best describes their current schooling situation? (SELECT_ONE)
+",Select one,Learning online or remotely at home,2
+edu_ch4_situation,"Which of the following best describes their current schooling situation? (SELECT_ONE)
+",Select one,Mix of in-person and online/remote,3
+edu_ch2_situation,"Which of the following best describes their current schooling situation? (SELECT_ONE)
+",Select one,Not currently in school,0
+edu_ch2_situation,"Which of the following best describes their current schooling situation? (SELECT_ONE)
+",Select one,In person class,1
+edu_ch2_situation,"Which of the following best describes their current schooling situation? (SELECT_ONE)
+",Select one,Learning online or remotely at home,2
+edu_ch2_situation,"Which of the following best describes their current schooling situation? (SELECT_ONE)
+",Select one,Mix of in-person and online/remote,3
+edu_ch3_situation,"Which of the following best describes their current schooling situation? ( SELECT_ONE) 
+",Select one,Not currently in school,0
+edu_ch3_situation,"Which of the following best describes their current schooling situation? ( SELECT_ONE) 
+",Select one,In person class,1
+edu_ch3_situation,"Which of the following best describes their current schooling situation? ( SELECT_ONE) 
+",Select one,Learning online or remotely at home,2
+edu_ch3_situation,"Which of the following best describes their current schooling situation? ( SELECT_ONE) 
+",Select one,Mix of in-person and online/remote,3
+edu_ch1_situation,Which of the following best describes their current schooling situation? (SELECT_ONE),Select one,Not currently in school,0
+edu_ch1_situation,Which of the following best describes their current schooling situation? (SELECT_ONE),Select one,In person class,1
+edu_ch1_situation,Which of the following best describes their current schooling situation? (SELECT_ONE),Select one,Learning online or remotely at home,2
+edu_ch1_situation,Which of the following best describes their current schooling situation? (SELECT_ONE),Select one,Mix of in-person and online/remote,3
+edu_ch4_support,Which of the following best describes any learning support they received after school closures due to COVID-19? (SELECT_ONE) ,Select multiple,Received remedial support organized by school,1
+edu_ch4_support,Which of the following best describes any learning support they received after school closures due to COVID-19? (SELECT_ONE) ,Select multiple,Received remedial support elsewhere,2
+edu_ch4_support,Which of the following best describes any learning support they received after school closures due to COVID-19? (SELECT_ONE) ,Select multiple,Received no remedial support,0
+edu_ch2_support,Which of the following best describes any learning support they received after school closures due to COVID-19? (SELECT_ONE) ,Select multiple,Received remedial support organized by school,1
+edu_ch2_support,Which of the following best describes any learning support they received after school closures due to COVID-19? (SELECT_ONE) ,Select multiple,Received remedial support elsewhere,2
+edu_ch2_support,Which of the following best describes any learning support they received after school closures due to COVID-19? (SELECT_ONE) ,Select multiple,Received no remedial support,0
+edu_ch3_support,Which of the following best describes any learning support they received after school closures due to COVID-19? (SELECT_ONE) ,Select multiple,Received remedial support organized by school,1
+edu_ch3_support,Which of the following best describes any learning support they received after school closures due to COVID-19? (SELECT_ONE) ,Select multiple,Received remedial support elsewhere,2
+edu_ch3_support,Which of the following best describes any learning support they received after school closures due to COVID-19? (SELECT_ONE) ,Select multiple,Received no remedial support,0
+edu_ch1_support,Which of the following best describes any learning support they received after school closures due to COVID-19? (SELECT_ONE),Select multiple,Received remedial support organized by school,1
+edu_ch1_support,Which of the following best describes any learning support they received after school closures due to COVID-19? (SELECT_ONE),Select multiple,Received remedial support elsewhere,2
+edu_ch1_support,Which of the following best describes any learning support they received after school closures due to COVID-19? (SELECT_ONE),Select multiple,Received no remedial support,0
+edu_ch4_school_type,Which of the following best describes the type of school/university they attended in February 2020? (SELECT_ONE) ,Select one,Public,1
+edu_ch4_school_type,Which of the following best describes the type of school/university they attended in February 2020? (SELECT_ONE) ,Select one,Private,2
+edu_ch2_school_type,Which of the following best describes the type of school/university they attended in February 2020? (SELECT_ONE),Select one,Public,1
+edu_ch2_school_type,Which of the following best describes the type of school/university they attended in February 2020? (SELECT_ONE),Select one,Private,2
+edu_ch3_school_type,Which of the following best describes the type of school/university they attended in February 2020? (SELECT_ONE) ,Select one,Public,1
+edu_ch3_school_type,Which of the following best describes the type of school/university they attended in February 2020? (SELECT_ONE) ,Select one,Private,2
+edu_ch1_school_type,Which of the following best describes the type of school/university they attended in February 2020? (SELECT_ONE),Select one,Public,1
+edu_ch1_school_type,Which of the following best describes the type of school/university they attended in February 2020? (SELECT_ONE),Select one,Private,2
+edu_students,"How many individuals in your household were going to school or university before the global COVID-19 pandemic started in March 2020-April 2020? This includes school for children, or university for adults (SELECT_MANY)",Number,,
+edu_ch4_age,How old are they? (NUMBER),Number,,
+edu_ch2_age,How old are they? (NUMBER),Number,,
+edu_ch3_age,How old are they? (NUMBER),Number,,
+edu_ch1_age,How old are they? (NUMBER),Number,,

@@ -39,6 +39,7 @@ A series of data visualisations built in R as part of the [#30DayChartChallenge]
 | 27 | Animate | Bar chart race — most common mechanics in BGG's top 1,000 games, 1993–2024 | `day27_animate.R` |
 | 28 | Modeling | Bayesian shrinkage curves — fitting BGG's rating model (C ≈ 2,564 dummy votes at m ≈ 5.5), top 15 games overlaid | `day28_modeling.R` |
 | 29 | Monochrome | Heatmap — share of BGG voters rating each player count as 'Best', top 50 ranked games | `day29_monochrome.R` |
+| 30 | Global Health Data Exchange | Dual panel — choropleth of children with no/rare internet access during COVID school closures + dumbbell of city vs rural gap, 35 countries | `day30_globalhealth.R` |
 
 ---
 
